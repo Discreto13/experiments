@@ -31,6 +31,9 @@ public:
 	char c;
 };
 
+class MyEmptyClass
+{};
+
 int main()
 {
 	// ======= STANDARD TYPES =======
@@ -52,6 +55,7 @@ int main()
 	TRACE_SIZE(MyStruct);
 	TRACE_SIZE(MyUnion);
 	TRACE_SIZE(MyClass);
+	TRACE_SIZE(MyEmptyClass);
 
 	// ======= UNION TEST =======
 	EX(MyUnion u);
