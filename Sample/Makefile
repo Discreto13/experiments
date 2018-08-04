@@ -1,5 +1,5 @@
 EXE=executable
-CFLAGS= -std=c++11 -Wall 
+CFLAGS=-std=c++11 -Wall 
 INSTALL_PATH=/usr/local/bin/$(EXE)
 
 all: $(EXE)
